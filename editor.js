@@ -5,9 +5,37 @@
  * ["object_field", minimum_bound, maximum_bound]
  */
 const sliderInfo = [
-  ["size",       0, 100],
-  ["offsetx",  -30,  30],
-  ["offsety", -100, 100]
+
+
+  // Define bounds for trapezoid 1 parameters
+  ["size1", 50, 150], // Define bounds for the size slider
+  ["offsetx", -100, 100],
+  ["offsety", -100, 100],
+  ["rotation1", -180, 180],
+
+  // Define bounds for trapezoid 2 parameters
+  ["size2", 50, 150], // Define bounds for the size slider
+  ["offsetx2", -100, 100],
+  ["offsety2", -100, 100],
+  ["rotation2", -180, 180],
+
+  // Define bounds for trapezoid 3 parameters
+  ["size3", 50, 150], // Define bounds for the size slider
+  ["offsetx3", -100, 100],
+  ["offsety3", -100, 100],
+  ["rotation3", -180, 180],
+
+  // Define bounds for trapezoid 4 parameters
+  ["size4", 50, 150], // Define bounds for the size slider
+  ["offsetx4", -100, 100],
+  ["offsety4", -100, 100],
+  ["rotation4", -180, 180],
+
+  // Define bounds for trapezoid 5 parameters
+  ["size5", 50, 150], // Define bounds for the size slider
+  ["offsetx5", -100, 100],
+  ["offsety5", -100, 100],
+  ["rotation5", -180, 180],
 ];
 
 // PROBABLY DON'T NEED TO EDIT ANYTHING ELSE. STOP HERE.

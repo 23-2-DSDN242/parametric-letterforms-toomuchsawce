@@ -91,6 +91,13 @@ var defaultSwapWords = [
 
 const interpolation_is_on = (typeof interpolate_letter === "function")
 
+let img; // Declare variable for the image
+
+function preload() {
+  // Load the image
+  img = loadImage('paperplane.jpg'); // Replace 'path_to_your_image.jpg' with the actual path to your image file
+}
+
 function setup () {
   // create the drawing canvas, save the canvas element
   main_canvas = createCanvas(canvasWidth, canvasHeight);
@@ -213,6 +220,11 @@ function draw () {
   }
 
   background(systemBackgroundColor);
+
+    // Draw the loaded image
+    if (img) {
+      image(img, 400, 30, 100, 100); // Display the image at the top-left corner of the canvas
+    }
 
   // shorthand variables to allow margin
   var o = 20
