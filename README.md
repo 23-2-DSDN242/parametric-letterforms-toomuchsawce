@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/xQz3oEP8)
 ## MDDN 242 2024 Assignment 2
 
-Isaiah Warbri
+Isaiah Warbrick
 
 My decided font name is Origamii (originally Origami, but since the exhibition section required 8 letter words I decide to stylize it as Origamii)
 
